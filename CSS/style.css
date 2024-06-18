@@ -45,11 +45,20 @@ h1 {
 
 .information1 {
     color: white;
-    margin: 80px;
+    margin: 100px;
 }
 
 img {
     display: flex;
 }
 
+button {
+    background-color: rgb(70, 170, 204);
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 25px;
+}
 
