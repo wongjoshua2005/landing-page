@@ -78,3 +78,20 @@ button {
     text-align: center;
     gap: 25px;
 }
+
+/** Quote section styling **/
+
+.quote {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(196, 196, 196);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 150px;
+}
+
+.quote-author {
+    margin-left: 800px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
