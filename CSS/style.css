@@ -56,13 +56,25 @@ button {
     padding: 10px;
 }
 
-.container2-main {
+.container2-main, .text-images {
     display: flex;
     justify-content: space-evenly;
+}
+
+.container2-main img {
+    border: 5px solid;
+    border-color: rgb(59, 130, 246);
+    border-radius: 10px;
 }
 
 .randomInfo {
     text-align: center;
     font-size: 35px;
     font-weight: bold;
+}
+
+.text-images {
+    align-items: center;
+    text-align: center;
+    gap: 25px;
 }
