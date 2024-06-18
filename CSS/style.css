@@ -1,64 +1,38 @@
-/** Body properties needed to have background color fill whole page **/
-* {
-    font-family: Roboto;
-}
+/** Background styling and header styling **/
 
 body {
+    font-family: Roboto;
     margin: 0;
+
 }
 
-/** Header properties **/
-
 .header, .container1 {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(69, 69, 69);
     display: flex;
-    justify-content: space-around;
+    background-color: rgb(31, 41, 55);
+    color: white;
+    justify-content: space-evenly;
+    gap: 450px;
     align-items: center;
 }
 
 h2 {
-    color: white;
-    margin-top: 15px;
-
+    font-weight: bolder;
 }
 
 ul {
-    margin-top: 10px;
-    font-size: 20px;
-    color: white;
-    font-weight: bolder;
     display: flex;
-    gap: 20px;
+    gap: 25px;
     list-style-type: none;
 }
 
-/** First container properties (The one with some information) **/
+/** First container styling **/
+
 .container1 {
-    justify-content: space-evenly;
+    padding: 100px;
+    gap: 250px;
 }
 
 h1 {
-    font-size: 50px;
+    font-weight: bolder;
+    font-size: 45px;
 }
-
-.information1 {
-    color: white;
-    margin: 100px;
-}
-
-img {
-    display: flex;
-}
-
-button {
-    background-color: rgb(70, 170, 204);
-    padding: 10px 40px;
-    border: none;
-    color: white;
-    border-radius: 10px;
-    font-family: Roboto;
-    font-size: 25px;
-}
-
