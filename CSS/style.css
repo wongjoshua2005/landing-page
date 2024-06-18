@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 
-h2 {
+.header-logo {
     font-weight: bolder;
 }
 
@@ -32,7 +32,37 @@ ul {
     gap: 250px;
 }
 
-h1 {
+.front-text {
     font-weight: bolder;
     font-size: 45px;
+}
+
+button {
+    background-color: rgb(59, 130, 246);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+/** Second container styling **/
+
+.container2-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.container2-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.randomInfo {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
 }
