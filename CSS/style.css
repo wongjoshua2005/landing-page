@@ -1,0 +1,55 @@
+/** Body properties needed to have background color fill whole page **/
+* {
+    font-family: Roboto;
+}
+
+body {
+    margin: 0;
+}
+
+/** Header properties **/
+
+.header, .container1 {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(69, 69, 69);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    margin-top: 15px;
+
+}
+
+ul {
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+/** First container properties (The one with some information) **/
+.container1 {
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.information1 {
+    color: white;
+    margin: 80px;
+}
+
+img {
+    display: flex;
+}
+
+
